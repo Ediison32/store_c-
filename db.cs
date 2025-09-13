@@ -35,18 +35,11 @@ public class db
         double sum = 0;
         sum = cantidad * precio;
         allTotal += sum;
-        Console.WriteLine(allTotal);
+        
         historial.Add($"\t{prducto,-10}\t{cantidad,4}\t{precio,12}\t{sum,13}");
         
     }
 
-    public static void seeHistory() // veo el historial que voy a comprar 
-    {
-        foreach (var itme in historial)
-        {
-            Console.WriteLine(itme);
-        }
-    }
 
     
 

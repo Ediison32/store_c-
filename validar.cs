@@ -26,7 +26,6 @@ public class validar
         
         if (cantidad <= stock[posicion])
         {
-            Console.WriteLine($"Puesdes hacer la compra ");
             stock[posicion] -= cantidad;
             db.total(serchProduct,cantidad, precio[posicion]);
             return true;
