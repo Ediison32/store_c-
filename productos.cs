@@ -15,7 +15,7 @@ public static class productos
             db.seeProduct();
          
             Console.Write($"\n\t Que producto quieres comprar ? ");
-            string nuevoProducto = Console.ReadLine();
+            string nuevoProducto = Console.ReadLine().ToLower();
             status = validar.validarProducto(nuevoProducto);
             if (status)
             {
@@ -24,8 +24,18 @@ public static class productos
                 validar.validarCantidad(nuevoProducto, cantidadProducto);
                 
             }
+            Console.Write($"\n\t Que seguir comprando  ? si/no\t");
+            string seguir = Console.ReadLine().ToLower();
+
+            if (seguir == "no")
+            {
+                // facturar 
+                validar.validarDescuento();
+                break;
+            }
+        }
+            
             
         }
 
     }
-}

@@ -12,3 +12,4 @@ D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\refint\store.dll
 D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.pdb
 D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.genruntimeconfig.cache
 D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\ref\store.dll
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.sourcelink.json

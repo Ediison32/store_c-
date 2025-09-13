@@ -1,12 +1,17 @@
 using System.Collections.Specialized;
 
 namespace store;
+
 public class db
 {
-    public static List<string> productos = new List<string> { "quipitos", "papitas", "barrilete", "chicles", "alphajores" };
+    public static List<string> productos = new List<string>
+        { "quipitos", "papitas", "barrilete", "chicles", "alphajores" };
+
     public static List<double> precios = new List<double> { 3500, 3000, 600, 800, 500 };
     public static List<int> stock = new List<int> { 10, 20, 12, 25, 9 };
+    public static List<string> historial = new List<string> { };
     public static double allTotal = 0.0;
+
     public static (List<string>, List<double>, List<int>) productosDb()
     {
         return (productos, precios, stock);
@@ -25,11 +30,24 @@ public class db
         }
     }
 
-    public static void total(double cantidad, double precio)
+    public static void total(string prducto, int cantidad, double precio)
     {
+        double sum = 0;
+        sum = cantidad * precio;
+        allTotal += sum;
+        Console.WriteLine(allTotal);
+        historial.Add($"\t{prducto,-10}\t{cantidad,4}\t{precio,12}\t{sum,13}");
         
-        allTotal += cantidad * precio;
-        Console.WriteLine(allTotal
-        );
     }
+
+    public static void seeHistory() // veo el historial que voy a comprar 
+    {
+        foreach (var itme in historial)
+        {
+            Console.WriteLine(itme);
+        }
+    }
+
+    
+
 }
