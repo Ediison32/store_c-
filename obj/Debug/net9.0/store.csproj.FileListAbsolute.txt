@@ -1,0 +1,14 @@
+D:\Riwi\C#\introduce_c#\Taller\store\bin\Debug\net9.0\store.exe
+D:\Riwi\C#\introduce_c#\Taller\store\bin\Debug\net9.0\store.deps.json
+D:\Riwi\C#\introduce_c#\Taller\store\bin\Debug\net9.0\store.runtimeconfig.json
+D:\Riwi\C#\introduce_c#\Taller\store\bin\Debug\net9.0\store.dll
+D:\Riwi\C#\introduce_c#\Taller\store\bin\Debug\net9.0\store.pdb
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.AssemblyInfoInputs.cache
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.AssemblyInfo.cs
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.csproj.CoreCompileInputs.cache
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.dll
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\refint\store.dll
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.pdb
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\store.genruntimeconfig.cache
+D:\Riwi\C#\introduce_c#\Taller\store\obj\Debug\net9.0\ref\store.dll
